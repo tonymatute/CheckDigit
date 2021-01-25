@@ -9,7 +9,7 @@ namespace API.Data
     {
         public int calculateCheckDigit(long trackingNumber)
         {
-            var trackingNumberArr = trackingNumberToArray(trackingNumber);
+            var trackingNumberArr = trackingNumberToArray(trackingNumber); 
 
             var trackingNumberList = trackingNumberArr.Reverse();
             List<int> digits = new List<int>();
